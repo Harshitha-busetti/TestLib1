@@ -3,7 +3,7 @@
 
 import UIKit
 @MainActor
-func MyFunc()->UILabel {
+public func MyFunc()->UILabel {
     
     let label = UILabel()
     label.text = "Welcome to My Package"
